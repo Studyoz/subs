@@ -1,6 +1,3 @@
-vless://5d612fc8-bf23-4289-86da-09d40db8f631@62.152.56.172:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk&sid=a9c4f17e3b62d8# By EbraSha
-vless://5d62c71a-a5c4-473d-b548-8a79b3267bae@5.75.207.247:41083?type=tcp&encryption=none&security=reality&pbk=KTAuJl8Ga2u2IZmfizQj6yEw3fOcqxLeYVhCA_r1wmQ&fp=chrome&sni=www.intel.com&sid=77b0689f&spx=/&flow=xtls-rprx-vision# By EbraSha
-vless://5d66a0b8-9e09-03e8-9fa4-ab64e9845608@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2,http/1.1# By EbraSha
 vless://5d66a0b8-9e09-0bb8-9fa4-ab64e9845608@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2,http/1.1# By EbraSha
 vless://5d66a0b8-9e09-2328-9fa4-ab64e9845608@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2,http/1.1# By EbraSha
 vless://5d67d4de-b8e7-45b3-8b44-00bbdb700d56@panel.ariyant.ir:80?mode=gun&security=none&encryption=none&type=grpc&serviceName=Tunnelme# By EbraSha
@@ -350,6 +347,7 @@ vless://5dabb21f-2277-4007-a8fc-e67ba401a126@91.107.166.66:44728?type=tcp&encryp
 vless://5dabb21f-2277-4007-a8fc-e67ba401a126@91.107.166.66:44728?type=tcp&encryption=none&security=reality&pbk=rOoltQhWKsF2PCZV4fIkxxsl7tg6-WUmQWMqJHEF6SM&fp=random&sni=aws.amazon.com&sid=dbb6ea0b&spx=/&flow=xtls-rprx-vision# By EbraSha
 vless://5dac7b4c-7c13-432b-96ce-d77e5abdbb01@195.208.65.150:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1# By EbraSha
 vless://5dac7b4c-7c13-432b-96ce-d77e5abdbb01@195.208.65.192:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1# By EbraSha
+vless://5dac7b4c-7c13-432b-96ce-d77e5abdbb01@195.208.65.192:443?type=ws&security=tls&encryption=none&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&sni=s46270.cdn.ngenix.net&fp=chrome&headerType=none# By EbraSha
 vless://5dacb9b2-ff6e-450e-8634-f0a34589e329@185.143.233.5:443?path=%2F%40alaedin%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=alaedin4.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=alaedin4.8lack.ir# By EbraSha
 vless://5dacb9b2-ff6e-450e-8634-f0a34589e329@185.143.233.5:443?path=/@alaedin?ed=128&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=alaedin4.8lack.ir&fp=chrome&type=ws&allowInsecure=0&sni=alaedin4.8lack.ir# By EbraSha
 vless://5db08bd9-b9a0-4684-80bf-27f744e4a8e8@81.94.148.75:8443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=ads.x5.ru&fp=chrome&sni=ads.x5.ru&pbk=DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM&sid=08# By EbraSha
@@ -799,6 +797,7 @@ vless://5e19a8d5-2b9c-4974-afba-312b96f5ed53@snapp.ir:2087?path=/BetForward&secu
 vless://5e1ac80c-5475-4167-a639-96c48a853ef9@snapp.ir:2095?security=none&allowInsecure=0&encryption=none&type=ws&host=s10.totgloucon.ir&path=/# By EbraSha
 vless://5e1b29f9-84f5-43bf-8c4f-cc6b8f7a68bc@are.mycat.lovestoblog.com:36197?type=tcp&security=reality&pbk=5aE84k7WXJFLumX8JKW-J0dY5JkXexbbdj6gXrdBbUA&fp=random&sni=queuev4.vk.com&sid=8eae3c25311814&spx=%2F&flow=xtls-rprx-vision# By EbraSha
 vless://5e1ce6a8-5fb6-41e6-87f9-5e3138d8e892@de1.alligatostore.shop:8080?path=%2F&security=tls&encryption=none&insecure=0&host=de1.alligatostore.shop&type=ws&allowInsecure=0&sni=de1.alligatostore.shop# By EbraSha
+vless://5e1d3406-c4a0-4dcf-9701-e1416f636823@188.72.103.3:443?encryption=none&type=xhttp&security=tls&host=cherry.benzogangmoney.space&path=/media/cache/thumbs-b82f/&mode=packet-up&extra={"host":"","path":"/media/cache/thumbs-b82f/","mode":"","headers":null,"xPaddingBytes":"0","xPaddingObfsMode":true,"xPaddingKey":"hash","xPaddingHeader":"X-Client-Version","xPaddingPlacement":"queryInHeader","xPaddingMethod":"tokenish","uplinkHTTPMethod":"GET","sessionPlacement":"header","sessionKey":"X-Upload-Token","seqPlacement":"query","seqKey":"chunk_id","uplinkDataPlacement":"","uplinkDataKey":"","uplinkChunkSize":0,"noGRPCHeader":false,"noSSEHeader":false,"scMaxEachPostBytes":"0","scMinPostsIntervalMs":"0","scMaxBufferedPosts":0,"scStreamUpServerSecs":"0","xmux":{"maxConcurrency":"12-24","maxConnections":"0","cMaxReuseTimes":"100","hMaxRequestTimes":"0","hMaxReusableSecs":"0","hKeepAlivePeriod":0},"downloadSettings":null,"extra":null}&fp=edge&sni=cherry.benzogangmoney.space&alpn=h2,http/1.1# By EbraSha
 vless://5e1e2f5b-e52e-40de-8435-89487f5c5918@104.252.53.181:14708?encryption=none&security=none&type=tcp# By EbraSha
 vless://5e1e2f5b-e52e-40de-8435-89487f5c5918@104.252.53.181:14708?encryption=none&type=tcp# By EbraSha
 vless://5e1e2f5b-e52e-40de-8435-89487f5c5918@104.252.53.181:14708?security=&encryption=none&headerType=&type=tcp# By EbraSha
@@ -1155,6 +1154,7 @@ vless://5ea08836-6be8-4181-ab82-0e26282aa0aa@173.245.59.91:443?path=/haofzzws&se
 vless://5ea08836-6be8-4181-ab82-0e26282aa0aa@clyde.ns.cloudflare.com:443?path=%2Fhaofzzws&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=639004042094863199.legacy-amsit.info# By EbraSha
 vless://5ea08836-6be8-4181-ab82-0e26282aa0aa@clyde.ns.cloudflare.com:443?path=/haofzzws&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=639004042094863199.legacy# By EbraSha
 vless://5ea08836-6be8-4181-ab82-0e26282aa0aa@clyde.ns.cloudflare.com:443?path=/haofzzws&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=639004042094863199.legacy-amsit.info# By EbraSha
+vless://5ea1edf5-98ac-4cde-a4b9-fe7500000000@node-8217281992-15f0d3.ezaccess1df1989.workers.dev:443?encryption=none&security=tls&sni=node-8217281992-15f0d3.ezaccess1df1989.workers.dev&fp=chrome&type=ws&host=node-8217281992-15f0d3.ezaccess1df1989.workers.dev&path=/sync&allowInsecure=0# By EbraSha
 vless://5ea7f017-dcf2-4848-b2f9-ee4368b2880d@217.16.27.113:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=AiG06E-jizo9xtBbulKQvdQqhZfobZJBTQIKkaDjaiU&sid=a1b2c3d4e5# By EbraSha
 vless://5ea7f017-dcf2-4848-b2f9-ee4368b2880d@217.16.27.113:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=eh.vk.com&pbk=AiG06E-jizo9xtBbulKQvdQqhZfobZJBTQIKkaDjaiU&sid=a1b2c3d4e5# By EbraSha
 vless://5ea7f017-dcf2-4848-b2f9-ee4368b2880d@217.16.27.113:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=AiG06E-jizo9xtBbulKQvdQqhZfobZJBTQIKkaDjaiU&sid=a1b2c3d4e5# By EbraSha
@@ -2695,6 +2695,7 @@ vless://61066a16-78fc-4446-8013-6646bc3f27ba@afrcloud22.mmv.kr:443?encryption=no
 vless://61066a16-78fc-4446-8013-6646bc3f27ba@afrcloud22.mmv.kr:443?encryption=none&security=tls&sni=afrcloud22.mmv.kr&type=ws&host=afrcloud22.mmv.kr&path=/# By EbraSha
 vless://61066a16-78fc-4446-8013-6646bc3f27ba@afrcloud22.mmv.kr:443?path=%2F&security=tls&encryption=none&insecure=0&host=afrcloud22.mmv.kr&fp=chrome&type=ws&allowInsecure=0&sni=afrcloud22.mmv.kr# By EbraSha
 vless://61066fd8-8238-4bac-b62b-0413e493fe29@test.axylegend.ir:20000?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&fp=chrome&pbk=BWFQ-BxFck2L0gjbXILc0Sh_rOy_YH9YYFf5kw5SsAI&security=reality&sid=f8983b3f8bdf&sni=play.google.com&spx=/u0d5xF2FdGUol0h&type=tcp# By EbraSha
+vless://61066fd8-8238-4bac-b62b-0413e493fe29@test.axylegend.ir:20000?encryption=none&fp=chrome&pbk=BWFQ-BxFck2L0gjbXILc0Sh_rOy_YH9YYFf5kw5SsAI&security=reality&sid=f8983b3f8bdf&sni=play.google.com&spx=/u0d5xF2FdGUol0h&type=tcp# By EbraSha
 vless://61066fd8-8238-4bac-b62b-0413e493fe29@test.axylegend.ir:20000?encryption=none&fp=ios&pbk=BWFQ-BxFck2L0gjbXILc0Sh_rOy_YH9YYFf5kw5SsAI&security=reality&sid=f8983b3f8bdf&sni=play.google.com&spx=%2Fu0d5xF2FdGUol0h&type=tcp# By EbraSha
 vless://61080a63-97ac-47ad-8ac0-3cdad54c0b26@158.160.142.40:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=5post-gate.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111# By EbraSha
 vless://61080a63-97ac-47ad-8ac0-3cdad54c0b26@158.160.145.14:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=5post-gate.x5.ru&pbk=XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE&sid=111111# By EbraSha
@@ -2910,6 +2911,7 @@ vless://612edb60-206d-4d76-ade3-aa112e1e9f55@87.120.106.185:34634?encryption=non
 vless://612edb60-206d-4d76-ade3-aa112e1e9f55@87.120.106.185:34634?path=%2F&security=none&encryption=none&host=play.google.com&type=ws# By EbraSha
 vless://612edb60-206d-4d76-ade3-aa112e1e9f55@87.120.106.185:34634?path=/&security=none&encryption=none&host=play.google.com&type=ws# By EbraSha
 vless://612edb60-206d-4d76-ade3-aa112e1e9f55@87.120.106.185:50420?encryption=none&headerType=http&host=play.google.com&path=%2F&security=none&type=tcp# By EbraSha
+vless://612f6d1c-a551-45af-83b6-d8e3d0842bfb@194.55.239.186:67?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=nl-t3.vinnypuxtomoon.today&pbk=RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go&sid=c0d1d1776fed0f6d# By EbraSha
 vless://612f6d1c-a551-45af-83b6-d8e3d0842bfb@194.55.239.186:67?flow=xtls-rprx-vision&fp=firefox&pbk=RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go&security=reality&sid=c0d1d1776fed0f6d&sni=nl-t3.vinnypuxtomoon.today&type=tcp# By EbraSha
 vless://612f78a0-65ca-45af-a3ff-7d0f8e9f8655@104.26.13.40:8880?encryption=none&type=ws&host=broken-star-c5ae.446.workers.dev&path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&security=none# By EbraSha
 vless://612f78a0-65ca-45af-a3ff-7d0f8e9f8655@104.26.13.40:8880?type=ws&host=broken-star-c5ae.446.workers.dev&path=/pyip=ProxyIP.KR.CMLiussss.net# By EbraSha
@@ -3530,6 +3532,7 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:2096?path=/?telegram @w
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:2096?path=/?telegram+@wangcai2=&security=tls&encryption=none&host=sni.jpmj.dev&type=ws&sni=sni.jpmj.dev# By EbraSha
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:2096?security=tls&encryption=none&host=sni.jpmj.dev&type=ws&sni=sni.jpmj.dev# By EbraSha
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:2096?type=tcp&encryption=none&security=none# By EbraSha
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:443?encryption=none&security=tls&sni=sni.111000.v6.navy&insecure=0&allowInsecure=0&type=ws&host=sni.111000.v6.navy&path=/?Telegram# By EbraSha
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:443?encryption=none&security=tls&sni=sni.111000.v6.navy&insecure=0&allowInsecure=0&type=ws&host=sni.111000.v6.navy&path=/?Telegram+@WangCai2=# By EbraSha
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:443?encryption=none&security=tls&sni=sni.111000.v6.navy&type=ws&host=sni.111000.v6.navy&path=%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%3D# By EbraSha
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.7.70:443?path=%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D&security=tls&encryption=none&insecure=0&host=sni.111000.v6.navy&type=ws&allowInsecure=0&sni=sni.111000.v6.navy# By EbraSha
@@ -4995,6 +4998,3 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@198.71.190.30:8880?path=%2F&securit
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@198.71.190.30:8880?path=/&security=&encryption=none&host=vms.lifetime05.workers.dev&type=ws# By EbraSha
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@198.71.190.30:8880?path=/&security=none&encryption=none&host=vms.lifetime05.workers.dev&type=ws# By EbraSha
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@198.71.190.30:8880?type=ws&host=vms.lifetime05.workers.dev&path=/# By EbraSha
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@198.71.191.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime06.workers.dev&path=%2F# By EbraSha
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@198.71.191.30:8880?security=none&type=ws&path=/&host=vms.lifetime06.workers.dev# By EbraSha
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@198.71.191.30:8880?type=ws&host=vms.lifetime06.workers.dev# By EbraSha
