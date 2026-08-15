@@ -1,5 +1,4 @@
 proxies:
-  - {name: filembad-595, server: 202.47.89.133, port: 53548, type: vmess, uuid: 3a03613b-bbac-4a22-bee6-2c9a751a2761, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dkfjh222}}
   - {name: M, server: 139.100.197.28, port: 52006, type: vless, tls: true, uuid: 870541f4-b3a7-07d0-af4b-7588d36e2dac, servername: search.setlisting.ru, alpn: [h2%2Chttp%2F1.1], host: search.setlisting.ru, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: M 2, server: 191.44.118.250, port: 2053, type: vless, tls: true, uuid: b6c29ae7-4748-4049-b642-b695c0d2c776, servername: vk.ru, host: vk.ru, flow: xtls-rprx-vision, reality-opts: {public-key: E6u2RbffXIPvia5v5iIZVj6U_VpSBWmGTsHHNtH-5Rg, short-id: 417063feab794131}, client-fingerprint: random}
   - {name: "@v2ray_configs_pool🔷", server: 172.66.44.97, port: 443, type: vless, tls: true, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "/sg-melbi#TELEGRAM-TOOTFFARANGI_TOOTFFARANGI?ed=2560", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false}
