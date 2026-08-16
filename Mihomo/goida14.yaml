@@ -1,5 +1,5 @@
 proxies:
-  - {name: v2ray_configs_pool-595, server: 47.238.148.155, port: 38878, type: vmess, uuid: a77727c6-0b19-4894-95bc-7a9f4dff1e84, alterId: 0, cipher: auto, tls: false}
+  - {name: v2ray_configs_pool-594, server: 8.210.147.92, port: 57682, type: vmess, uuid: a77727c6-0b19-4894-95bc-7a9f4dff1e84, alterId: 0, cipher: auto, tls: false}
   - {name: "@ghand_sheken", server: 103.120.178.193, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: EBDRo9THx4CqiFU7h5gfov76oNwzZURAh0ZwbWjBKddtUhvz}
   - {name: "@ghand_sheken 2", server: 4.168.234.5, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LY94CL8HouUwEPF3}
   - {name: "@outline_ir", server: 3.78.155.1, port: 22224, type: vless, tls: true, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e}
