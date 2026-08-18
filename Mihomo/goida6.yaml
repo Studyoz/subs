@@ -1,10 +1,12 @@
 proxies:
+  - {name: "[openproxylist.com] vless-KZ", server: 188.130.234.239, port: 443, type: vless, tls: true, uuid: 308cf8e0-e922-49bb-9b68-203e5aafcc97, servername: kz.node.goidanet.com, network: grpc, grpc-opts: {grpc-mode: multi, grpc-service-name: ""}, reality-opts: {public-key: xXxqDpB8gQjBddOHSOFb52xVS2Odmb63z1PYhMqe0Uo, short-id: 1a55b8fd25417fbf}, client-fingerprint: random}
+  - {name: "[openproxylist.com] vless-PL", server: 168.222.49.215, port: 16089, type: vless, tls: true, uuid: 9a85fe34-213a-43ef-acbd-bb84552302f3}
   - {name: "[openproxylist.com] vless-NL", server: 185.91.54.83, port: 443, type: vless, tls: true, uuid: 8b706aff-ca60-4632-9658-aeb5c0f48561, servername: eda.x5.ru, host: eda.x5.ru, flow: xtls-rprx-vision, reality-opts: {public-key: EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI, short-id: 226509f017e4c36d}, client-fingerprint: random}
   - {name: "[openproxylist.com] vless-IT", server: it.morinsq.su, port: 443, type: vless, tls: true, uuid: 93fab704-cea7-4ca4-a9ac-5bb46aef263c, servername: it.morinsq.su, host: it.morinsq.su, reality-opts: {public-key: D3qByJ6qqJd5phYkfAtJpBqAhSb8VHPax1ZhvI3ZKEE, short-id: 96e380212691bba8}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-PL", server: 82.38.65.76, port: 443, type: vless, tls: true, uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7, servername: pypi.org, host: pypi.org, flow: xtls-rprx-vision}
+  - {name: "[openproxylist.com] vless-PL 2", server: 82.38.65.76, port: 443, type: vless, tls: true, uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7, servername: pypi.org, host: pypi.org, flow: xtls-rprx-vision}
   - {name: "[openproxylist.com] vmess-US", server: 64.83.12.153, port: 443, type: vmess, uuid: 9d476209-d8bd-9536-6e8d-61c97ec114db, alterId: 0, cipher: auto, tls: false}
   - {name: "[openproxylist.com] ss-SG", server: 168.107.81.254, port: 56927, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: SeX7cLfW+WWgFoc3nPSBxPxBPtE63qwODMqpUf7Slho=}
-  - {name: "[openproxylist.com] ss-NL", server: 92.5.228.26, port: 45819, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 5Xn2qHoVdu6aJjp6R2KjKrk10+qFniNh5OjKW93TdWk=}
+  - {name: "[openproxylist.com] ss-", server: 92.5.228.26, port: 45819, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 5Xn2qHoVdu6aJjp6R2KjKrk10+qFniNh5OjKW93TdWk=}
   - {name: "[openproxylist.com] vmess-JP", server: cc28.goingside.site, port: 8998, type: vmess, uuid: 4b019faa-38b0-473d-bc49-60bb68151c34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cc28.goingside.site}}}
   - {name: "[openproxylist.com] vless-JP", server: 139.180.198.220, port: 52143, type: vless, tls: true, uuid: 2942bae7-9dcf-4a2e-f928-933c0ab3eab0, path: /}
   - {name: "[openproxylist.com] vless-DE", server: 84.21.189.193, port: 443, type: vless, tls: true, uuid: d31aefb3-775b-4e87-a093-a4677addf10a, servername: stackoverflow.com, host: stackoverflow.com, flow: xtls-rprx-vision, reality-opts: {public-key: 3EwukQs0ows0H4l2atTgz_Mo5SV-v5p14D4zfA41tU4, short-id: c010293d0bafac}, client-fingerprint: random}
@@ -25,102 +27,104 @@ proxies:
   - {name: "[openproxylist.com] ss-JP", server: 108.61.223.231, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: WbEN0g6Rbnsye8EJZz94OF}
   - {name: "[openproxylist.com] ss-US", server: 129.146.201.41, port: 50356, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: piv++49uk9UdI6Jo8B/FTMz4ncNmAoBu/mALAqyG/X0=}
   - {name: "[openproxylist.com] vmess-US 3", server: 185.227.252.204, port: 8080, type: vmess, uuid: b3c6fb30-1416-47fc-87a1-784aeb75b526, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: "[openproxylist.com] vless-DE 4", server: savesafe.co, port: 443, type: vless, tls: true, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, flow: xtls-rprx-vision, reality-opts: {public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI, short-id: f63805c3ecc7a483}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-NL 3", server: 195.184.247.226, port: 443, type: vless, tls: true, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, servername: savesafe.co, host: savesafe.co, flow: xtls-rprx-vision, reality-opts: {public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI, short-id: f63805c3ecc7a483}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-NL 4", server: 195.184.247.222, port: 443, type: vless, tls: true, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, servername: savesafe.co, host: savesafe.co, flow: xtls-rprx-vision, reality-opts: {public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI, short-id: f63805c3ecc7a483}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-NL 5", server: 195.184.247.223, port: 443, type: vless, tls: true, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, servername: savesafe.co, host: savesafe.co, flow: xtls-rprx-vision, reality-opts: {public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI, short-id: f63805c3ecc7a483}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-NL 6", server: 84.235.171.188, port: 62145, type: vless, tls: true, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /}
-  - {name: "[openproxylist.com] ss-GB 4", server: 129.151.65.200, port: 61312, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: dBzhdBpUjjungwbNFFQOLIrxd9SYfqP4Qt2l29/2uYo=}
-  - {name: "[openproxylist.com] ss-AU", server: 45.32.246.180, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: TqkkHRpZTkjbTBrk}
-  - {name: "[openproxylist.com] trojan-", server: 54.180.231.164, port: 443, type: trojan, password: PQ05174892, sni: regular-raptor.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP", server: sterling-vervet.rooster465.autos, port: 443, type: trojan, password: PQ05174892, sni: sterling-vervet.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-KR", server: regular-raptor.rooster465.autos, port: 443, type: trojan, password: PQ05174892}
+  - {name: "[openproxylist.com] trojan-JP", server: 52.196.139.154, port: 443, type: trojan, password: PQ05174892, sni: sterling-vervet.rooster465.autos}
   - {name: "[openproxylist.com] vless-IT 2", server: 151.101.56.7, port: 443, type: vless, tls: true, uuid: e0454af2-6fe9-4983-a55d-05e1da202602, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}}
   - {name: "[openproxylist.com] vless-EE", server: ee2.mehab.me, port: 443, type: vless, tls: true, uuid: 278412f2-ef42-48e2-a4c0-243b173e612b}
-  - {name: "[openproxylist.com] vless-FI", server: 199.232.78.159, port: 443, type: vless, tls: true, uuid: e0454af2-6fe9-4983-a55d-05e1da202602, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}}
-  - {name: "[openproxylist.com] ss-", server: 64.188.77.159, port: 8390, type: ss, cipher: chacha20-ietf-poly1305, password: EyGy11BMfeP-6UHjsgajWw}
-  - {name: "[openproxylist.com] ss-GB 5", server: 129.151.88.180, port: 61312, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 7CCOp1icO5ZfmmzSweQowSvA5+efeJ3HrKxHDAAJmUc=}
+  - {name: "[openproxylist.com] vmess-DE", server: 91.107.255.181, port: 28110, type: vmess, uuid: be711f12-6fb3-42d8-8025-18551677363f, alterId: 0, cipher: auto, tls: false}
+  - {name: "[openproxylist.com] ss- 2", server: 64.188.77.159, port: 8390, type: ss, cipher: chacha20-ietf-poly1305, password: EyGy11BMfeP-6UHjsgajWw}
+  - {name: "[openproxylist.com] ss-GB 4", server: 129.151.88.180, port: 61312, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 7CCOp1icO5ZfmmzSweQowSvA5+efeJ3HrKxHDAAJmUc=}
   - {name: "[openproxylist.com] vless-CO 4", server: 158.247.124.70, port: 62145, type: vless, tls: true, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /}
   - {name: "[openproxylist.com] vless-SG", server: 141.193.213.20, port: 8443, type: vless, tls: true, uuid: 7967bf59-57e3-4cde-9898-527b0fe60022, servername: speed.dulacloud.store, network: ws, ws-opts: {path: /dula, headers: {Host: speed.dulacloud.store}}}
-  - {name: "[openproxylist.com] vless-DE 5", server: djuc1.rapidmesh.ir, port: 2096, type: vless, tls: true, uuid: 16569657-116c-46ed-8920-758ab8abaac4, servername: yahoo.com, host: yahoo.com, flow: xtls-rprx-vision, reality-opts: {public-key: jqDgERbgQ5DVnJvw4p_j8XnM4GXUSXvPEn2t0TOtMms, short-id: c2b19b0e0e625d01}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-NL 7", server: nl7.unlockvpn.online, port: 8444, type: vless, tls: true, uuid: 1f619326-cd93-4d6b-aebe-e0b5f8831d02, servername: nl7.unlockvpn.online, alpn: [http/1.1], network: ws, ws-opts: {path: /api/v1/devices/d5e8188467/telemetry, headers: {Host: nl7.unlockvpn.online}}}
+  - {name: "[openproxylist.com] vless-DE 4", server: djuc1.rapidmesh.ir, port: 2096, type: vless, tls: true, uuid: 16569657-116c-46ed-8920-758ab8abaac4, servername: yahoo.com, host: yahoo.com, flow: xtls-rprx-vision, reality-opts: {public-key: jqDgERbgQ5DVnJvw4p_j8XnM4GXUSXvPEn2t0TOtMms, short-id: c2b19b0e0e625d01}, client-fingerprint: random}
   - {name: "[openproxylist.com] trojan-JP 2", server: mighty-lemming.rooster465.autos, port: 443, type: trojan, password: PQ05174892, sni: mighty-lemming.rooster465.autos}
   - {name: "[openproxylist.com] trojan-JP 3", server: sweeping-parakeet.rooster465.autos, port: 443, type: trojan, password: AE62539071}
   - {name: "[openproxylist.com] trojan-JP 4", server: awaited-lark.rooster465.autos, port: 443, type: trojan, password: AE62539071}
   - {name: "[openproxylist.com] trojan-JP 5", server: central-jawfish.rooster465.autos, port: 443, type: trojan, password: AE62539071}
-  - {name: "[openproxylist.com] trojan- 2", server: known-albacore.rooster465.autos, port: 443, type: trojan, password: AE62539071}
-  - {name: "[openproxylist.com] vless-SG 2", server: paid.sshehi.ggff.net, port: 443, type: vless, tls: true, uuid: 49c86212-ae0b-430e-9abb-244e715b533f, servername: aka.ms, network: ws, ws-opts: {path: /, headers: {Host: aka.ms}}}
+  - {name: "[openproxylist.com] trojan-JP 6", server: known-albacore.rooster465.autos, port: 443, type: trojan, password: AE62539071}
   - {name: "[openproxylist.com] trojan-IE", server: 18.201.47.180, port: 443, type: trojan, password: AE62539071, sni: healthy-panda.rooster465.autos, skip-cert-verify: false}
   - {name: "[openproxylist.com] trojan-IE 2", server: 18.201.28.146, port: 443, type: trojan, password: AE62539071, sni: helped-haddock.rooster465.autos, skip-cert-verify: false}
-  - {name: "[openproxylist.com] vless-HK", server: 141.11.149.200, port: 11650, type: vless, tls: true, uuid: 2aa2be33-b987-461e-8d0e-2ffe15cb8e4c}
   - {name: "[openproxylist.com] vless-RU", server: 201.51.1.84, port: 16923, type: vless, tls: true, uuid: ba222add-6ac1-45f1-9a18-f91cb38e324f, servername: api-maps.yandex.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: neurex}, reality-opts: {public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA, short-id: 10ffb85da1c2d986}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-AL", server: nl6.unlockvpn.online, port: 443, type: vless, tls: true, uuid: 1da18def-6804-44c8-bb6d-83cff995f567, servername: yahoo.com, host: yahoo.com, flow: xtls-rprx-vision, reality-opts: {public-key: XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo, short-id: 7bcfc0bc}, client-fingerprint: random}
   - {name: "[openproxylist.com] trojan-TR", server: 193.124.46.65, port: 443, type: trojan, password: 8bS8vVC5CQ2GsckhMh8IT1jv, sni: 193.124.46.65}
-  - {name: "[openproxylist.com] vless-DE 6", server: 77.110.99.144, port: 443, type: vless, tls: true, uuid: c1943f8a-11c6-402d-a439-dc0be226d916, servername: yahoo.com, host: yahoo.com, flow: xtls-rprx-vision}
+  - {name: "[openproxylist.com] vless-DE 5", server: 77.110.99.144, port: 443, type: vless, tls: true, uuid: c1943f8a-11c6-402d-a439-dc0be226d916, servername: yahoo.com, host: yahoo.com, flow: xtls-rprx-vision}
   - {name: "[openproxylist.com] vless-JP 2", server: 14.137.238.40, port: 10000, type: vless, tls: true, uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625, path: /}
+  - {name: "[openproxylist.com] vless-DE 6", server: 199.232.78.159, port: 443, type: vless, tls: true, uuid: e0454af2-6fe9-4983-a55d-05e1da202602, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}}
   - {name: "[openproxylist.com] vless-DE 7", server: 199.232.78.159, port: 443, type: vless, tls: true, uuid: e0454af2-6fe9-4983-a55d-05e1da202602, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false}
-  - {name: "[openproxylist.com] vless-DE 8", server: 199.232.78.159, port: 443, type: vless, tls: true, uuid: e0454af2-6fe9-4983-a55d-05e1da202602, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false}
   - {name: "[openproxylist.com] vless-GB 2", server: 132.243.207.38, port: 4443, type: vless, tls: true, uuid: 1f35c4eb-e4fa-5a62-b0e1-b557983b34c7, servername: www.vk.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ""}, reality-opts: {public-key: wg5YJMYIcqRU9X9U54TRzKIIw5aUyxIEI3tL_jck5WU, short-id: 44}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-IN", server: 148.113.5.44, port: 443, type: vless, tls: true, uuid: 72ea5a91-ffcc-43d2-9297-5993c3abf186, servername: www.cloudflare.com, host: www.cloudflare.com, flow: xtls-rprx-vision, reality-opts: {public-key: QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI, short-id: 221873918e0bb74d}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-PL 2", server: pl154.slovovpn.com, port: 26417, type: vless, tls: true, uuid: 48cb335c-2210-4f81-bde9-e9c8d454ed7b, servername: github.com, host: github.com, reality-opts: {public-key: UIW5K60pwiph20ht5dLF22CmD68KphGRiYTBK0wBXXw, short-id: deff65}, client-fingerprint: random}
-  - {name: "[openproxylist.com] trojan-DE", server: up-dinosaur.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: false}
+  - {name: "[openproxylist.com] vless-PL 3", server: pl154.slovovpn.com, port: 26417, type: vless, tls: true, uuid: 48cb335c-2210-4f81-bde9-e9c8d454ed7b, servername: github.com, host: github.com, reality-opts: {public-key: UIW5K60pwiph20ht5dLF22CmD68KphGRiYTBK0wBXXw, short-id: deff65}, client-fingerprint: random}
   - {name: "[openproxylist.com] ss-RU", server: 45.8.158.176, port: 10801, type: ss, cipher: aes-256-gcm, password: 1eadd4e4a37b6601}
   - {name: "[openproxylist.com] vless-GB 3", server: 89.125.124.178, port: 8443, type: vless, tls: true, uuid: d71aecee-ef16-418e-baf5-2b2458122d5a, servername: gb.wlrus.cfd, host: gb.wlrus.cfd}
-  - {name: "[openproxylist.com] vless-NL 8", server: 212.118.40.187, port: 443, type: vless, tls: true, uuid: ee71862e-816b-4d26-97d2-f200898e385d, servername: www.cisco.com, host: www.cisco.com, flow: xtls-rprx-vision, reality-opts: {public-key: MfOXevYFoqnwIn6dUiPZvWYRfYHyb5lzBy3R1OSsrWg, short-id: f3e8b2b1}, client-fingerprint: random}
+  - {name: "[openproxylist.com] vless-NL 3", server: 212.118.40.187, port: 443, type: vless, tls: true, uuid: ee71862e-816b-4d26-97d2-f200898e385d, servername: www.cisco.com, host: www.cisco.com, flow: xtls-rprx-vision, reality-opts: {public-key: MfOXevYFoqnwIn6dUiPZvWYRfYHyb5lzBy3R1OSsrWg, short-id: f3e8b2b1}, client-fingerprint: random}
+  - {name: "[openproxylist.com] vless-US", server: cf.levikogjgfdd.ir, port: 2095, type: vless, tls: true, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, network: ws, ws-opts: {path: /, headers: {Host: fangbinxingnmsl.pusytroller.gq}}}
   - {name: "[openproxylist.com] vless-TW", server: 45.121.50.241, port: 50159, type: vless, tls: true, uuid: 47a97b7f-044d-43d6-86b0-8b256873d1b5, servername: www.cloudflare.com, host: www.cloudflare.com, flow: xtls-rprx-vision, reality-opts: {public-key: E9gCs_C_mSDcHmlCZSMk1kSXpmua48DhgsT_aDpZ1WE, short-id: 4c3f80051030ba1b}, client-fingerprint: random}
-  - {name: "[openproxylist.com] trojan-JP 6", server: 54.238.100.160, port: 443, type: trojan, password: PQ05174892, sni: witty-duckling.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-KR", server: 52.79.248.57, port: 443, type: trojan, password: PQ05174892, sni: awake-redbird.rooster465.autos}
-  - {name: "[openproxylist.com] trojan- 3", server: 43.206.241.145, port: 443, type: trojan, password: PQ05174892, sni: concise-guinea.rooster465.autos}
-  - {name: "[openproxylist.com] vless-NL 9", server: direct-nl.bachidze.com, port: 443, type: vless, tls: true, uuid: f7c25743-140c-4d32-a296-a53bc49682d8, servername: direct-nl.bachidze.com, host: direct-nl.bachidze.com, flow: xtls-rprx-vision}
-  - {name: "[openproxylist.com] trojan- 4", server: 109.206.241.10, port: 449, type: trojan, password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1, sni: russiapower.accesscam.org, skip-cert-verify: false}
-  - {name: "[openproxylist.com] vless-NL 10", server: 94.241.174.157, port: 40443, type: vless, tls: true, uuid: 8ac637bf-554e-4902-94d7-baf01780a83c, servername: deepl.com, host: deepl.com, flow: xtls-rprx-vision, reality-opts: {public-key: mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ, short-id: beb4}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-DE 9", server: 144.31.76.198, port: 13443, type: vless, tls: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: auto.cendora.ru, host: auto.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM, short-id: a7f3c91b2e6d84c0}, client-fingerprint: random}
-  - {name: "[openproxylist.com] trojan- 5", server: precious-stag.rooster465.autos, port: 443, type: trojan, password: PQ05174892}
-  - {name: "[openproxylist.com] trojan-JP 7", server: ethical-raccoon.rooster465.autos, port: 443, type: trojan, password: PQ05174892}
-  - {name: "[openproxylist.com] trojan-JP 8", server: 13.115.145.243, port: 443, type: trojan, password: PQ05174892, sni: smooth-cougar.rooster465.autos, skip-cert-verify: false}
-  - {name: "[openproxylist.com] trojan-JP 9", server: champion-alien.rooster465.autos, port: 443, type: trojan, password: PQ05174892, skip-cert-verify: false}
-  - {name: "[openproxylist.com] trojan-JP 10", server: grateful-crawdad.rooster465.autos, port: 443, type: trojan, password: AE62539071}
+  - {name: "[openproxylist.com] trojan-JP 7", server: 54.238.100.160, port: 443, type: trojan, password: PQ05174892, sni: witty-duckling.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-KR 2", server: awake-redbird.rooster465.autos, port: 443, type: trojan, password: PQ05174892, sni: awake-redbird.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 8", server: 43.206.241.145, port: 443, type: trojan, password: PQ05174892, sni: concise-guinea.rooster465.autos}
+  - {name: "[openproxylist.com] vless-GB 4", server: 46.226.163.243, port: 443, type: vless, tls: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: eu-west.cendora.ru, host: eu-west.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0, short-id: dd3ff38418d29d22}, client-fingerprint: random}
+  - {name: "[openproxylist.com] trojan-DE", server: 87.121.218.169, port: 443, type: trojan, password: bptHV5U91mWneB61rRKhCQ8f}
+  - {name: "[openproxylist.com] trojan-EE", server: 109.206.241.10, port: 449, type: trojan, password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1, sni: russiapower.accesscam.org, skip-cert-verify: false}
+  - {name: "[openproxylist.com] vless-DE 8", server: 144.31.76.198, port: 13443, type: vless, tls: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: auto.cendora.ru, host: auto.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM, short-id: a7f3c91b2e6d84c0}, client-fingerprint: random}
+  - {name: "[openproxylist.com] trojan-KR 3", server: precious-stag.rooster465.autos, port: 443, type: trojan, password: PQ05174892}
+  - {name: "[openproxylist.com] vmess-DE 2", server: 46.224.171.220, port: 28111, type: vmess, uuid: 38b27114-7714-4748-b488-3c49d4c7dcab, alterId: 0, cipher: auto, tls: false}
+  - {name: "[openproxylist.com] trojan-JP 9", server: 13.115.145.243, port: 443, type: trojan, password: PQ05174892, sni: smooth-cougar.rooster465.autos, skip-cert-verify: false}
+  - {name: "[openproxylist.com] trojan-JP 10", server: champion-alien.rooster465.autos, port: 443, type: trojan, password: PQ05174892, skip-cert-verify: false}
+  - {name: "[openproxylist.com] trojan-JP 11", server: grateful-crawdad.rooster465.autos, port: 443, type: trojan, password: AE62539071}
   - {name: "[openproxylist.com] vmess-", server: 74.48.28.190, port: 80, type: vmess, uuid: 4ed58974-48cd-472e-c818-fb847b8c551f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13.m3u8}}
-  - {name: "[openproxylist.com] trojan-SG", server: infinite-anteater.rooster465.autos, port: 443, type: trojan, password: PQ05174892, sni: infinite-anteater.rooster465.autos}
-  - {name: "[openproxylist.com] vless-EE 2", server: estproxy4.lockdwn.com, port: 443, type: vless, tls: true, uuid: 06c4e938-2954-478f-a870-ca1b163e30e9, network: ws, ws-opts: {path: /, headers: {Host: estproxy4.lockdwn.com}}}
   - {name: "[openproxylist.com] vless-", server: 176.108.243.192, port: 9880, type: vless, tls: true, uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05, servername: dl.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-tunnel}, reality-opts: {public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0, short-id: aa}, client-fingerprint: random}
-  - {name: "[openproxylist.com] trojan-JP 11", server: merry-falcon.rooster465.autos, port: 443, type: trojan, password: PQ05174892}
-  - {name: "[openproxylist.com] trojan-KR 2", server: key-barnacle.rooster465.autos, port: 443, type: trojan, password: HC04361579, sni: key-barnacle.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-KR 3", server: aware-coyote.rooster465.autos, port: 443, type: trojan, password: FH72359861}
-  - {name: "[openproxylist.com] trojan-JP 12", server: funny-squid.rooster465.autos, port: 443, type: trojan, password: FH72359861}
-  - {name: "[openproxylist.com] trojan-JP 13", server: wise-gibbon.rooster465.autos, port: 443, type: trojan, password: FH72359861}
-  - {name: "[openproxylist.com] trojan-JP 14", server: light-filly.rooster465.autos, port: 443, type: trojan, password: FH72359861}
-  - {name: "[openproxylist.com] trojan-SG 2", server: 13.229.94.200, port: 443, type: trojan, password: AE62539071, sni: massive-terrapin.rooster465.autos, skip-cert-verify: false}
+  - {name: "[openproxylist.com] trojan-JP 12", server: merry-falcon.rooster465.autos, port: 443, type: trojan, password: PQ05174892}
+  - {name: "[openproxylist.com] trojan-KR 4", server: key-barnacle.rooster465.autos, port: 443, type: trojan, password: HC04361579, sni: key-barnacle.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-KR 5", server: aware-coyote.rooster465.autos, port: 443, type: trojan, password: FH72359861}
+  - {name: "[openproxylist.com] trojan-JP 13", server: funny-squid.rooster465.autos, port: 443, type: trojan, password: FH72359861}
+  - {name: "[openproxylist.com] trojan-JP 14", server: wise-gibbon.rooster465.autos, port: 443, type: trojan, password: FH72359861}
+  - {name: "[openproxylist.com] trojan-JP 15", server: light-filly.rooster465.autos, port: 443, type: trojan, password: FH72359861}
   - {name: "[openproxylist.com] vless-LT", server: 31.76.83.114, port: 443, type: vless, tls: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: baltic.cendora.ru, host: baltic.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik, short-id: 4a46213c935e2ee4}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-NL 11", server: 95.85.247.155, port: 443, type: vless, tls: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: eu-west.cendora.ru, host: eu-west.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0, short-id: dd3ff38418d29d22}, client-fingerprint: random}
-  - {name: "[openproxylist.com] vless-NL 12", server: 64.188.77.13, port: 443, type: vless, tls: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: eu-west.cendora.ru, host: eu-west.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0, short-id: dd3ff38418d29d22}, client-fingerprint: random}
   - {name: "[openproxylist.com] ss-DE 2", server: 144.31.168.176, port: 45640, type: ss, cipher: chacha20-ietf-poly1305, password: eQvKkykBEbCky5p4BVghO0}
-  - {name: "[openproxylist.com] trojan-AU", server: national-stingray.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: national-stingray.rooster465.autos}
   - {name: "[openproxylist.com] vless- 2", server: neth6.lckdwn.ru, port: 8443, type: vless, tls: true, uuid: 14da77da-4fb3-4e49-ac4f-7881ea19b267, servername: neth6.lckdwn.ru, alpn: ["h2,http/1.1"], host: neth6.lckdwn.ru}
   - {name: "[openproxylist.com] ss-IT", server: 194.87.47.204, port: 10901, type: ss, cipher: aes-256-gcm, password: d1fa2f4b98a38bc8}
-  - {name: "[openproxylist.com] ss-CA", server: 166.88.130.218, port: 50118, type: ss, cipher: aes-256-gcm, password: fbcec76953a2d173}
   - {name: "[openproxylist.com] trojan-NL", server: nl-vk.tkbvpcompany.site, port: 443, type: trojan, password: SEYnpOitNLndBhDtkZyeAShl, sni: nl-vk.tkbvpcompany.site}
   - {name: "[openproxylist.com] vless-CH", server: 31.76.4.103, port: 443, type: vless, tls: true, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: eu-central.cendora.ru, host: eu-central.cendora.ru, flow: xtls-rprx-vision, reality-opts: {public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI, short-id: 00bca5982f82d083}, client-fingerprint: random}
   - {name: "[openproxylist.com] vmess-CA", server: board-02.ddnskunlun.com, port: 11985, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false}
-  - {name: "[openproxylist.com] trojan-JP 15", server: touching-ostrich.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: touching-ostrich.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 16", server: adapted-quetzal.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: adapted-quetzal.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 17", server: magical-airedale.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: magical-airedale.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 18", server: sterling-fowl.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: sterling-fowl.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 19", server: casual-stallion.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: casual-stallion.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 20", server: emerging-porpoise.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: emerging-porpoise.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 21", server: adapting-giraffe.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: adapting-giraffe.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 22", server: needed-gelding.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: needed-gelding.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 23", server: flying-swift.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: flying-swift.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 24", server: noted-cougar.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: noted-cougar.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 25", server: internal-mongoose.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: internal-mongoose.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 26", server: pretty-adder.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: pretty-adder.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 16", server: touching-ostrich.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: touching-ostrich.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 17", server: adapted-quetzal.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: adapted-quetzal.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 18", server: magical-airedale.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: magical-airedale.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 19", server: sterling-fowl.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: sterling-fowl.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 20", server: casual-stallion.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: casual-stallion.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 21", server: emerging-porpoise.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: emerging-porpoise.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 22", server: adapting-giraffe.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: adapting-giraffe.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 23", server: needed-gelding.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: needed-gelding.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 24", server: flying-swift.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: flying-swift.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 25", server: noted-cougar.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: noted-cougar.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 26", server: internal-mongoose.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: internal-mongoose.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 27", server: pretty-adder.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: pretty-adder.rooster465.autos}
   - {name: "[openproxylist.com] trojan-IE 3", server: summary-firefly.rooster465.autos, port: 443, type: trojan, password: FH72359861}
-  - {name: "[openproxylist.com] trojan- 6", server: many-pangolin.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: many-pangolin.rooster465.autos}
-  - {name: "[openproxylist.com] trojan-JP 27", server: helping-shark.rooster465.autos, port: 443, type: trojan, password: FH72359861}
-  - {name: "[openproxylist.com] trojan-KR 4", server: complete-narwhal.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: complete-narwhal.rooster465.autos}
-  - {name: "[openproxylist.com] trojan- 7", server: worthy-perch.rooster465.autos, port: 443, type: trojan, password: FH72359861}
-  - {name: "[openproxylist.com] trojan-KR 5", server: one-dove.rooster465.autos, port: 443, type: trojan, password: FH72359861}
-  - {name: "[openproxylist.com] trojan-JP 28", server: endless-kiwi.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: endless-kiwi.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 28", server: many-pangolin.rooster465.autos, port: 443, type: trojan, password: FH72359861}
+  - {name: "[openproxylist.com] trojan-JP 29", server: helping-shark.rooster465.autos, port: 443, type: trojan, password: FH72359861}
+  - {name: "[openproxylist.com] trojan-KR 6", server: complete-narwhal.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: complete-narwhal.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-SG", server: worthy-perch.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: worthy-perch.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-KR 7", server: one-dove.rooster465.autos, port: 443, type: trojan, password: FH72359861}
+  - {name: "[openproxylist.com] trojan-JP 30", server: endless-kiwi.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: endless-kiwi.rooster465.autos}
   - {name: "[openproxylist.com] trojan-HK", server: natural-swan.rooster465.autos, port: 443, type: trojan, password: FH72359861}
-  - {name: "[openproxylist.com] trojan-JP 29", server: champion-panther.rooster465.autos, port: 443, type: trojan, password: FH72359861}
-  - {name: "[openproxylist.com] trojan-KR 6", server: balanced-stag.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: balanced-stag.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 31", server: champion-panther.rooster465.autos, port: 443, type: trojan, password: FH72359861}
+  - {name: "[openproxylist.com] trojan-KR 8", server: balanced-stag.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: balanced-stag.rooster465.autos}
   - {name: "[openproxylist.com] vmess-HK", server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 0c657913-e593-4893-9555-f88478c33a4b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com}}}
+  - {name: "[openproxylist.com] trojan-US", server: warm-aardvark.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: warm-aardvark.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-KR 9", server: firm-krill.rooster465.autos, port: 443, type: trojan, password: AE62539071, sni: firm-krill.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-KR 10", server: capable-jay.rooster465.autos, port: 443, type: trojan, password: AE62539071, sni: capable-jay.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-KR 11", server: viable-serval.rooster465.autos, port: 443, type: trojan, password: AE62539071, sni: viable-serval.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-JP 32", server: eager-camel.rooster465.autos, port: 443, type: trojan, password: AE62539071, sni: eager-camel.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-NL 2", server: pro-crane.rooster465.autos, port: 443, type: trojan, password: FH72359861}
+  - {name: "[openproxylist.com] trojan-US 2", server: sharing-duck.rooster465.autos, port: 443, type: trojan, password: AE62539071, sni: sharing-duck.rooster465.autos}
+  - {name: "[openproxylist.com] vmess-GB", server: node-uk.connectsuite.org, port: 2053, type: vmess, uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72, alterId: 0, cipher: auto, tls: true}
+  - {name: "[openproxylist.com] trojan-PL", server: primary-leech.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: primary-leech.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-PL 2", server: magnetic-caiman.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: magnetic-caiman.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-HK 2", server: modern-bedbug.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: modern-bedbug.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-IE 4", server: darling-mongrel.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: darling-mongrel.rooster465.autos}
+  - {name: "[openproxylist.com] vless-LV", server: 89.36.161.222, port: 2053, type: vless, tls: true, uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb, servername: vk.ru, host: vk.ru, flow: xtls-rprx-vision, reality-opts: {public-key: cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg, short-id: d26f4703cdd30f4e}, client-fingerprint: random}
+  - {name: "[openproxylist.com] vless-DE 9", server: 200.165.228.78, port: 2200, type: vless, tls: true, uuid: 215c2b34-6371-49c7-a90d-39a4fe5191c0, network: ws, ws-opts: {path: /v1, headers: {Host: rzd.ru}}}
+  - {name: "[openproxylist.com] vless-FR", server: 164.68.127.108, port: 24144, type: vless, tls: true, uuid: 7e85ed3f-3829-45b1-8b1c-6a2e45ebc967}
+  - {name: "[openproxylist.com] vless-FR 2", server: finite-node.rtxconfigz.com, port: 443, type: vless, tls: true, uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c, servername: finite-node.rtxconfigz.com, network: ws, ws-opts: {path: /, headers: {Host: finite-node.rtxconfigz.com}}}
+  - {name: "[openproxylist.com] trojan-IE 5", server: 54.74.210.220, port: 443, type: trojan, password: AE62539071, sni: funny-hen.rooster465.autos, skip-cert-verify: false}
+  - {name: "[openproxylist.com] ss-US 2", server: 15.204.247.124, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[openproxylist.com] trojan-KR 12", server: loyal-molly.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: loyal-molly.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-DE 2", server: summary-lemming.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: summary-lemming.rooster465.autos}
+  - {name: "[openproxylist.com] trojan-IE 6", server: balanced-heron.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: balanced-heron.rooster465.autos}
