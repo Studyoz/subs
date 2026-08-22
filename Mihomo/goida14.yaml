@@ -1,5 +1,4 @@
 proxies:
-  - {name: filembad-488, server: 43.228.126.187, port: 47630, type: vmess, uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb, alterId: 0, cipher: auto, tls: false}
   - {name: "@meliproxyy", server: 87.120.84.32, port: 33843, type: vless, tls: true, uuid: 93dac4b8-3879-4179-abdb-9666a9e2ca8d, servername: deproxy2.lckdwn.ru, host: deproxy2.lckdwn.ru}
   - {name: "@meliproxyy 2", server: 45.155.68.9, port: 443, type: vless, tls: true, uuid: 2b622609-bb92-49e8-9631-4ada00324f47, servername: it2ws.wba-pn.ru, network: ws, ws-opts: {path: /, headers: {Host: it2ws.wba-pn.ru}}, skip-cert-verify: false}
   - {name: "@meliproxyy 3", server: 87.117.234.19, port: 443, type: vless, tls: true, uuid: 4d583b2c-2f5a-47d0-8181-e95217fe8cd9, servername: strapi.io, host: strapi.io, flow: xtls-rprx-vision, reality-opts: {public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY, short-id: fd55b698ee8c3629}, client-fingerprint: random}
